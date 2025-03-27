@@ -11,6 +11,8 @@ def main():
         print("Yes, zero is technically an EVEN number, it is nothing.  Stop playing...")    
     elif user_num % 2 == 0:
         print("You have choosen an EVEN number!")
+        if user_num % 4 == 0:
+            print("Oooh!  Special bonus!  You go, girlfriend!  This one is divisible by 4 also.")
     else:
         print("You have choosen an ODD number!")
 
